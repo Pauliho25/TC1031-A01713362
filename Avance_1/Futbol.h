@@ -1,6 +1,8 @@
 #ifndef Futbol_H_
 #define Futbol_H_
 
+//Paulo Marques Pinhal Ticó - A01713362
+
 #include <vector>
 #include <string>
 #include <algorithm>
