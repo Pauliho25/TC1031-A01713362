@@ -1,4 +1,5 @@
 # Partidos de Fútbol (Busqueda y Predicción)
+## Paulo Marques Pinhal Ticó - A01713362
 
 Aplicación de consola en C++ para gestionar partidos de fútbol, con búsquedas y ordenamientos, ademas de crear una prediccion en base a los puntos y rendimiento de los equipos. 
 
