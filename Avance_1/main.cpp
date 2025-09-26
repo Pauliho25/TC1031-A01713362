@@ -1,6 +1,8 @@
 #include "futbol.h"
 #include <iostream>
 
+//Paulo Marques Pinhal Ticó - A01713362
+
 int main() {
     SoccerDB db;
 
