@@ -30,40 +30,39 @@ Este programa tiene como objetivo crear un sistema para partidos de Fútbol, en 
 
 ---
 
-## Análisis de Complejidad
+## Análisis de Complejidad y Selección de Componentes
 
-Esta sección detalla el análisis de complejidad temporal (Big O) de los componentes clave del programa.
+Esta sección detalla la selección y el análisis de complejidad temporal (Big O) de los componentes clave del programa.
 
-### 1. Algoritmos de Ordenamiento
-Se hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa (utilizados para ordenar por fecha y hora).
+### 1. Selección y Análisis de Algoritmos de Ordenamiento
+* Se selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente (ej. `std::sort` para ordenamientos por fecha/hora).
+* Se hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados.
+* **Algoritmo:** `[Nombre del algoritmo, ej. std::sort]`
+* **Complejidad Temporal:** $O(N \log N)$
 
-* **Algoritmo de ordenamiento:** `[Nombre del algoritmo, ej. Merge Sort, std::sort]`
-* **Complejidad Temporal:** $O(...)$
-
-### 2. Estructuras de Datos
-Se hace un análisis de complejidad correcto y completo de todas las estructuras de datos y cada uno de sus usos en el programa (ej. vectores para almacenar partidos, mapas para búsqueda rápida, etc.).
-
+### 2. Selección y Análisis de Estructuras de Datos
+* Se selecciona una estructura de datos adecuada al problema y la usa correctamente (ej. `std::vector` para almacenar la lista principal de partidos).
+* Se hace un análisis de complejidad correcto y completo de todas las estructuras de datos y cada uno de sus usos.
 * **Estructura:** `[Nombre de la estructura, ej. std::vector<Partido>]`
     * **Uso:** Almacenamiento principal de partidos.
-    * **Inserción (Agregar partido):** $O(...)$
-    * **Búsqueda (lineal):** $O(...)$
+    * **Inserción (Agregar partido):** $O(1)$ amortizado
+    * **Búsqueda (lineal):** $O(N)$
 * **Estructura:** `[Nombre de la estructura, ej. std::map<string, Equipo>]`
-    * **Uso:** Búsqueda de equipos por nombre.
-    * **Inserción:** $O(...)$
-    * **Búsqueda:** $O(...)$
+    * **Uso:** Búsqueda rápida de equipos por nombre para análisis.
+    * **Inserción:** $O(\log N)$
+    * **Búsqueda:** $O(\log N)$
 
-### 3. Otros Componentes y Complejidad Final
-Se hace un análisis de complejidad correcto y completo para todos los demás componentes del programa (funciones de búsqueda, análisis, predicción) y se determina la complejidad final.
-
+### 3. Análisis de Otros Componentes y Complejidad Final
+* Se hace un análisis de complejidad correcto y completo para todos los demás componentes del programa (funciones de búsqueda, análisis, predicción) y determina la complejidad final del programa.
 * **Componente (Búsqueda por equipo/liga):**
-    * **Complejidad:** $O(...)$
+    * **Complejidad:** $O(N)$ (si itera sobre el vector)
 * **Componente (Análisis/Predicción):**
-    * **Complejidad:** $O(...)$
-* **Componente (Menú interactivo / Carga de datos):**
-    * **Complejidad:** $O(...)$
+    * **Complejidad:** $O(N)$ (si itera sobre todos los partidos para calcular estadísticas)
+* **Componente (Carga de datos):**
+    * **Complejidad:** $O(N)$ (para $N$ partidos)
 
 ---
 
 * **Complejidad Final del Programa:**
-    * La complejidad final del programa está determinada por la operación más costosa, que es `[Indicar la operación, ej. el ordenamiento]`
-    * **Complejidad Final:** $O(...)$
+    * La complejidad final del programa está determinada por la operación más costosa, que es **el ordenamiento**.
+    * **Complejidad Final:** $O(N \log N)$
