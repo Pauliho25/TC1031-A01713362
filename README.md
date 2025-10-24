@@ -36,14 +36,14 @@ Esta sección detalla la selección y el análisis de complejidad temporal (Big 
 
 ### 1. Selección y Análisis de Algoritmos de Ordenamiento
 
-* [cite_start]Se selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente: **`std::sort`** (implementación eficiente, generalmente IntroSort) se utiliza para ordenar los partidos por fecha (`sortByDate`, `searchByTeam`, `searchByLeague`) y por hora (`sortByHour`). [cite: 1]
+* Se selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente: **`std::sort`** (implementación eficiente, generalmente IntroSort) se utiliza para ordenar los partidos por fecha (`sortByDate`, `searchByTeam`, `searchByLeague`) y por hora (`sortByHour`).
 * Se hace un análisis de complejidad correcto y completo para el algoritmo de ordenamiento usado.
 * **Algoritmo:** `std::sort`
 * **Complejidad Temporal:** $O(N \log N)$, donde $N$ es el número de partidos a ordenar.
 
 ### 2. Selección y Análisis de Estructuras de Datos
 
-* [cite_start]Se selecciona una estructura de datos adecuada al problema y la usa correctamente: **`std::vector<Match>`** se usa dentro de la clase `SoccerDB` para almacenar la lista principal de partidos. [cite: 1] [cite_start]Los resultados de búsqueda también se almacenan temporalmente en un `std::vector<Match>`. [cite: 1]
+* Se selecciona una estructura de datos adecuada al problema y la usa correctamente: **`std::vector<Match>`** se usa dentro de la clase `SoccerDB` para almacenar la lista principal de partidos. Los resultados de búsqueda también se almacenan temporalmente en un `std::vector<Match>`.
 * Se hace un análisis de complejidad correcto y completo de esta estructura y sus usos.
 * **Estructura:** `std::vector<Match>` (en `SoccerDB`)
     * **Uso:** Almacenamiento principal de partidos.
@@ -55,14 +55,13 @@ Esta sección detalla la selección y el análisis de complejidad temporal (Big 
 
 * Se hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.
 * **Componente (Carga de datos - `readMatchesFromCSV`):**
-    * **Complejidad:** $O(N)$, donde $N$ es el número de partidos en el archivo CSV. [cite_start]Lee cada línea y la añade al vector. [cite: 1]
+    * **Complejidad:** $O(N)$, donde $N$ es el número de partidos en el archivo CSV.
 * **Componente (Búsqueda por equipo/liga - `searchByTeam`/`searchByLeague`):**
-    * **Complejidad:** $O(N) + O(M \log M)$, donde $N$ es el total de partidos y $M$ es el número de resultados encontrados. [cite_start]$O(N)$ para la búsqueda lineal y $O(M \log M)$ para ordenar los resultados con `std::sort`. [cite: 1] En el peor caso ($M=N$), es $O(N \log N)$.
+    * **Complejidad:** $O(N) + O(M \log M)$, donde $N$ es el total de partidos y $M$ es el número de resultados encontrados. $O(N)$ para la búsqueda lineal y $O(M \log M)$ para ordenar los resultados con `std::sort`. En el peor caso ($M=N$), es $O(N \log N)$.
 * **Componente (Mostrar todos los partidos):**
-    * [cite_start]**Complejidad:** $O(N)$, itera sobre el vector. [cite: 1]
+    * **Complejidad:** $O(N)$, itera sobre el vector. 
 * **Componente (Menú interactivo):**
-    * **Complejidad:** Depende de la opción seleccionada. Las operaciones individuales tienen las complejidades mencionadas arriba. [cite_start]El bucle `while` se ejecuta hasta que el usuario elige salir. [cite: 1]
-
+    * **Complejidad:** Depende de la opción seleccionada. Las operaciones individuales tienen las complejidades mencionadas arriba. El bucle `while` se ejecuta hasta que el usuario elige salir. 
 ---
 
 * **Complejidad Final del Programa:**
