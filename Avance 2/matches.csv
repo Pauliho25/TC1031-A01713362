@@ -1,0 +1,51 @@
+MatchID,HomeTeam,AwayTeam,Date,Time,League
+1,Barcelona,Real Madrid,2025-10-04,20:00,LaLiga
+2,Atletico Madrid,Barcelona,2025-10-18,18:00,LaLiga
+3,Real Madrid,Atletico Madrid,2025-10-12,16:00,LaLiga
+4,Valencia,Sevilla,2025-10-05,19:00,LaLiga
+5,Betis,Villarreal,2025-10-06,17:30,LaLiga
+6,Athletic Bilbao,Celta Vigo,2025-10-07,21:00,LaLiga
+7,Espanol,Barcelona,2025-10-08,18:30,LaLiga
+8,Real Madrid,Valencia,2025-10-09,20:00,LaLiga
+9,Sevilla,Betis,2025-10-10,19:00,LaLiga
+10,Villarreal,Athletic Bilbao,2025-10-11,17:00,LaLiga
+11,Celta Vigo,Espanol,2025-10-13,16:00,LaLiga
+12,Atletico Madrid,Sevilla,2025-10-14,18:00,LaLiga
+13,Barcelona,Betis,2025-10-15,20:30,LaLiga
+14,Valencia,Villarreal,2025-10-16,19:30,LaLiga
+15,Athletic Bilbao,Real Madrid,2025-10-17,21:00,LaLiga
+16,Espanol,Atletico Madrid,2025-10-19,17:30,LaLiga
+17,Sevilla,Celta Vigo,2025-10-20,18:00,LaLiga
+18,Betis,Espanol,2025-10-21,16:30,LaLiga
+19,Villarreal,Barcelona,2025-10-22,20:00,LaLiga
+20,Real Madrid,Betis,2025-10-23,19:00,LaLiga
+21,Atletico Madrid,Villarreal,2025-10-24,17:00,LaLiga
+22,Valencia,Athletic Bilbao,2025-10-25,18:30,LaLiga
+23,Celta Vigo,Valencia,2025-10-26,20:00,LaLiga
+24,Espanol,Sevilla,2025-10-27,19:30,LaLiga
+25,Barcelona,Athletic Bilbao,2025-10-28,21:00,LaLiga
+26,Real Madrid,Celta Vigo,2025-10-29,17:30,LaLiga
+27,Atletico Madrid,Espanol,2025-10-30,18:00,LaLiga
+28,Sevilla,Barcelona,2025-10-31,20:00,LaLiga
+29,Betis,Real Madrid,2025-11-01,19:00,LaLiga
+30,Villarreal,Atletico Madrid,2025-11-02,16:00,LaLiga
+31,Athletic Bilbao,Valencia,2025-11-03,18:30,LaLiga
+32,Celta Vigo,Sevilla,2025-11-04,20:00,LaLiga
+33,Espanol,Betis,2025-11-05,19:30,LaLiga
+34,Barcelona,Celta Vigo,2025-11-06,21:00,LaLiga
+35,Real Madrid,Espanol,2025-11-07,17:30,LaLiga
+36,Atletico Madrid,Betis,2025-11-08,18:00,LaLiga
+37,Valencia,Barcelona,2025-11-09,20:00,LaLiga
+38,Sevilla,Real Madrid,2025-11-10,19:00,LaLiga
+39,Betis,Atletico Madrid,2025-11-11,16:30,LaLiga
+40,Villarreal,Valencia,2025-11-12,18:00,LaLiga
+41,Athletic Bilbao,Sevilla,2025-11-13,20:30,LaLiga
+42,Celta Vigo,Betis,2025-11-14,19:00,LaLiga
+43,Espanol,Villarreal,2025-11-15,17:00,LaLiga
+44,Barcelona,Espanol,2025-11-16,21:00,LaLiga
+45,Real Madrid,Villarreal,2025-11-17,18:30,LaLiga
+46,Atletico Madrid,Athletic Bilbao,2025-11-18,20:00,LaLiga
+47,Valencia,Celta Vigo,2025-11-19,19:30,LaLiga
+48,Sevilla,Espanol,2025-11-20,17:30,LaLiga
+49,Betis,Barcelona,2025-11-21,18:00,LaLiga
+50,Villarreal,Real Madrid,2025-11-22,20:00,LaLiga
