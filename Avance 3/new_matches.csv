@@ -1,0 +1,81 @@
+MatchID,HomeTeam,AwayTeam,Date,Time,League,HomeScore,AwayScore
+1,Barcelona,Real Madrid,2024-09-01,20:00,LaLiga,2,1
+2,Barcelona,Atletico Madrid,2024-09-08,18:00,LaLiga,3,1
+3,Barcelona,Valencia,2024-09-15,19:00,LaLiga,4,0
+4,Barcelona,Sevilla,2024-09-22,20:00,LaLiga,2,0
+5,Barcelona,Betis,2024-09-29,17:30,LaLiga,3,1
+6,Real Madrid,Barcelona,2024-09-01,20:00,LaLiga,1,2
+7,Real Madrid,Atletico Madrid,2024-09-08,18:00,LaLiga,2,0
+8,Real Madrid,Valencia,2024-09-15,19:00,LaLiga,3,1
+9,Real Madrid,Sevilla,2024-09-22,20:00,LaLiga,2,2
+10,Real Madrid,Betis,2024-09-29,17:30,LaLiga,4,0
+11,Atletico Madrid,Barcelona,2024-09-01,18:00,LaLiga,1,3
+12,Atletico Madrid,Real Madrid,2024-09-08,18:00,LaLiga,0,2
+13,Atletico Madrid,Valencia,2024-09-15,19:00,LaLiga,2,1
+14,Atletico Madrid,Sevilla,2024-09-22,20:00,LaLiga,1,1
+15,Atletico Madrid,Betis,2024-09-29,17:30,LaLiga,2,0
+16,Valencia,Barcelona,2024-09-01,19:00,LaLiga,0,4
+17,Valencia,Real Madrid,2024-09-08,19:00,LaLiga,1,3
+18,Valencia,Atletico Madrid,2024-09-15,19:00,LaLiga,1,2
+19,Valencia,Sevilla,2024-09-22,20:00,LaLiga,0,2
+20,Valencia,Betis,2024-09-29,17:30,LaLiga,1,1
+21,Sevilla,Barcelona,2024-09-01,20:00,LaLiga,0,2
+22,Sevilla,Real Madrid,2024-09-08,20:00,LaLiga,2,2
+23,Sevilla,Atletico Madrid,2024-09-15,20:00,LaLiga,1,1
+24,Sevilla,Valencia,2024-09-22,20:00,LaLiga,2,0
+25,Sevilla,Betis,2024-09-29,17:30,LaLiga,1,1
+26,Betis,Barcelona,2024-09-01,17:30,LaLiga,1,3
+27,Betis,Real Madrid,2024-09-08,17:30,LaLiga,0,4
+28,Betis,Atletico Madrid,2024-09-15,17:30,LaLiga,0,2
+29,Betis,Valencia,2024-09-22,17:30,LaLiga,1,1
+30,Betis,Sevilla,2024-09-29,17:30,LaLiga,1,1
+31,Villarreal,Barcelona,2024-09-01,20:00,LaLiga,1,2
+32,Villarreal,Real Madrid,2024-09-08,20:00,LaLiga,1,3
+33,Villarreal,Atletico Madrid,2024-09-15,20:00,LaLiga,0,2
+34,Villarreal,Valencia,2024-09-22,20:00,LaLiga,2,0
+35,Villarreal,Sevilla,2024-09-29,20:00,LaLiga,1,1
+36,Athletic Bilbao,Barcelona,2024-09-01,21:00,LaLiga,0,3
+37,Athletic Bilbao,Real Madrid,2024-09-08,21:00,LaLiga,0,2
+38,Athletic Bilbao,Atletico Madrid,2024-09-15,21:00,LaLiga,1,2
+39,Athletic Bilbao,Valencia,2024-09-22,21:00,LaLiga,2,1
+40,Athletic Bilbao,Sevilla,2024-09-29,21:00,LaLiga,1,1
+41,Celta Vigo,Barcelona,2024-09-01,16:00,LaLiga,0,3
+42,Celta Vigo,Real Madrid,2024-09-08,16:00,LaLiga,0,2
+43,Celta Vigo,Atletico Madrid,2024-09-15,16:00,LaLiga,1,1
+44,Celta Vigo,Valencia,2024-09-22,16:00,LaLiga,2,2
+45,Celta Vigo,Sevilla,2024-09-29,16:00,LaLiga,0,1
+46,Espanol,Barcelona,2024-09-01,18:30,LaLiga,0,3
+47,Espanol,Real Madrid,2024-09-08,18:30,LaLiga,1,2
+48,Espanol,Atletico Madrid,2024-09-15,18:30,LaLiga,1,3
+49,Espanol,Valencia,2024-09-22,18:30,LaLiga,0,1
+50,Espanol,Sevilla,2024-09-29,18:30,LaLiga,0,1
+51,Barcelona,Villarreal,2025-10-01,20:00,LaLiga,,
+52,Barcelona,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+53,Barcelona,Celta Vigo,2025-10-15,19:00,LaLiga,,
+54,Real Madrid,Villarreal,2025-10-01,20:00,LaLiga,,
+55,Real Madrid,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+56,Real Madrid,Celta Vigo,2025-10-15,19:00,LaLiga,,
+57,Atletico Madrid,Villarreal,2025-10-01,20:00,LaLiga,,
+58,Atletico Madrid,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+59,Atletico Madrid,Celta Vigo,2025-10-15,19:00,LaLiga,,
+60,Valencia,Villarreal,2025-10-01,20:00,LaLiga,,
+61,Valencia,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+62,Valencia,Celta Vigo,2025-10-15,19:00,LaLiga,,
+63,Sevilla,Villarreal,2025-10-01,20:00,LaLiga,,
+64,Sevilla,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+65,Sevilla,Celta Vigo,2025-10-15,19:00,LaLiga,,
+66,Betis,Villarreal,2025-10-01,20:00,LaLiga,,
+67,Betis,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+68,Betis,Celta Vigo,2025-10-15,19:00,LaLiga,,
+69,Villarreal,Espanol,2025-10-01,20:00,LaLiga,,
+70,Athletic Bilbao,Espanol,2025-10-08,18:00,LaLiga,,
+71,Celta Vigo,Espanol,2025-10-15,19:00,LaLiga,,
+72,Espanol,Villarreal,2025-10-01,20:00,LaLiga,,
+73,Espanol,Athletic Bilbao,2025-10-08,18:00,LaLiga,,
+74,Espanol,Celta Vigo,2025-10-15,19:00,LaLiga,,
+75,Barcelona,Espanol,2025-10-22,20:00,LaLiga,,
+76,Real Madrid,Espanol,2025-10-22,20:00,LaLiga,,
+77,Atletico Madrid,Espanol,2025-10-22,20:00,LaLiga,,
+78,Valencia,Espanol,2025-10-22,20:00,LaLiga,,
+79,Sevilla,Espanol,2025-10-22,20:00,LaLiga,,
+80,Betis,Espanol,2025-10-22,20:00,LaLiga,,
